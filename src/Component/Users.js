@@ -34,7 +34,7 @@ class Users extends React.Component{
             this.state.user.map(elem=>{
                 return(
                     <div className="card" key={elem.id}>
-                        <img src={elem.avatar} width={250} height={250}/>
+                        <img src={elem.avatar} width={220} height={220} alt="profile"/>
                         <h3>{elem.first_name+" "+elem.last_name}</h3>
                         <h4>{elem.email}</h4>
                     </div>

@@ -1,8 +1,8 @@
 const Header=(props)=>{
     return(
         <header>
-            <h1>ApiUsers</h1>
-            <button onClick={props.getDetails}>Get Details</button>
+            <h1>APIUsers</h1>
+            <button className="btn" onClick={props.getDetails}>Get Details</button>
         </header>
     )
 }
